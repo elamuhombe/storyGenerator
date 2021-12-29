@@ -1,0 +1,29 @@
+.container{
+	width: 600px;
+	margin-left: 150px;
+	margin-top:30px;
+	border: solid 1px #2A9DF4;
+	border-radius: 5px;
+	padding: 5px;
+	
+}
+
+#customName{
+	margin-bottom: 20px;
+}
+
+.randomize{
+	margin-top: 40px;
+	background-color: #2A9DF4;
+	border: 1px;
+	border-color:#2A9DF4;
+	border-radius: 5px;
+	padding: 5px;
+
+}
+
+.story{
+	visibility: hidden;
+	margin: 5px;
+	
+}
