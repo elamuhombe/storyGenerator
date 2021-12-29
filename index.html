@@ -1,34 +1,30 @@
 <!doctype html>
-	<html>
-		<head>
-			<title>Image Gallery</title><!--end of title-->
+<html>
+	<head>
+		<title>Story Generator</title>
+		
+	</head><!--end of head tag-->
+	<link rel="stylesheet" href="css/styles.css">
+	<body>
+	<div class="container">
+		<div>
+			<label for="customName"></label>
+			<input id="customName" type="text" placeholder="" >
+		</div><!--div tag for the textbox-->
 			
-		</head><!--end of head tag-->
-		<link rel="stylesheet" href="styles.css"/>
-		<body>
-			<h3>Image Gallery Demo</h3>
-			<!--class where the full image will be displayed-->
-			<div class="full-img">
-				<img class="imag" src="images/img01.jpg">
-				
-			<!--empty div that is sized to be the same as the  <img> tag-->
-				<div class="overlay"></div><!--end of div class overlay-->
-			<!--button will control the darkening effect-->
-				<button class="dark">Darken</button>
-			</div><!--end of div class full-img-->
+		<div>
+		<label for="us">US<input id="us" type="radio" name="ukus" value="us" checked</label>
+		<label for="uk">UK<input id="uk" type="radio" name="ukus" value="uk" checked</label>
+		</div><!--div tag for the radio buttons-->
+		<div>
+		
+			<button class="randomize">Generate random story</button>
+		</div><!--div tag for the buttons-->
 			
-			<div class="thumb-bar">
-				
-			
-			</div><!--end of div class thumb-bar-->
-			<script src="scripts.js"></script>
-		<body><!--end of body tag-->
-	
-	
-	
-	
-	
-	
-	
-	
-	<html>
+			<p class="story"> </p><!--paragraph where the story will be generated-->
+			<script src="main.js"></script>
+		</div><!--end of div class container-->
+		
+		
+	</body><!--end of body tag-->
+</html>
